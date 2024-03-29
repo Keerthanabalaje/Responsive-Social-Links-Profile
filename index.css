@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;    
+    padding-left: 550px;
+    padding-top: 150px;
+    background-color: hsl(0, 0%, 8%);
+}
+.card figure img{
+    border:solid;
+    border-radius: 30px;
+  }
+  .card figcaption{
+    font-size: larger;
+  }
+.inter-place{
+    font-size: small;
+    color:hsl(75, 94%, 57%);
+  } 
+  .inter-role{
+    font-size: medium;
+    font-weight: 400;
+  }
+.container{  
+padding-top: 20px;
+    border:solid 0px;
+    width: 350px;
+    height: 445px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 12%);
+    color: white;  
+    border-radius: 7px; 
+}
+.buttonbox{
+    padding-top: 10px;
+    padding-left: 42px;
+}
+.buttonbox a {
+    padding: 5px;
+    text-decoration: none; 
+    border: solid 0px;
+    width: 256px;
+    height: 25px;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+}
+.buttonbox a:hover{
+    background: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
